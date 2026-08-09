@@ -1,58 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
   <title id="title">OZ Healthcare Data Lab</title>
-  <desc id="desc">Pastel healthcare data analysis hero inspired by the team presentation, showing smoking and health metrics.</desc>
+  <desc id="desc">Animated pastel healthcare data-analysis hero for the OZ Dongari smoking and health project.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fffdf9"/>
-      <stop offset="1" stop-color="#f8f3ed"/>
+    <linearGradient id="bg" x1="90" y1="20" x2="1510" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFDF9"/>
+      <stop offset="0.52" stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#FBF7FF"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#2b2b2b" flood-opacity="0.09"/>
+    <linearGradient id="card" x1="290" y1="120" x2="1270" y2="530" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF7EE"/>
+      <stop offset="1" stop-color="#F5EFE8"/>
+    </linearGradient>
+    <linearGradient id="blueChip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D9F2FF"/>
+      <stop offset="1" stop-color="#BDE8FA"/>
+    </linearGradient>
+    <linearGradient id="orangeChip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF0D8"/>
+      <stop offset="1" stop-color="#FFDDAE"/>
+    </linearGradient>
+    <linearGradient id="greenChip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EAF9EF"/>
+      <stop offset="1" stop-color="#CDEFD8"/>
+    </linearGradient>
+    <linearGradient id="purpleChip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F1ECFF"/>
+      <stop offset="1" stop-color="#DDD2FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#334155" flood-opacity="0.12"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#334155" flood-opacity="0.10"/>
+    </filter>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="1200" height="440" rx="30" fill="url(#bg)"/>
+  <rect width="1600" height="640" rx="34" fill="url(#bg)"/>
 
-  <!-- pastel doodles -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.72">
-    <path d="M75 75 C100 42 145 48 156 78 C172 66 203 72 207 98 C210 124 185 136 158 133 L101 133 C72 133 56 110 64 91 Z" fill="#cceeff" stroke="#b6e3f4" stroke-width="4"/>
-    <path d="M1032 60 C1057 48 1082 58 1088 80 C1111 64 1146 76 1147 106 C1148 132 1124 145 1097 143 L1043 143 C1017 142 1003 121 1009 99 C1012 86 1020 72 1032 60 Z" fill="#dff3df" stroke="#c9e8c7" stroke-width="4"/>
-    <path d="M87 320 q26 -30 52 0 q-26 34 -52 0" stroke="#d9c2ee" stroke-width="8"/>
-    <path d="M1060 320 q25 -30 50 0 q-25 34 -50 0" stroke="#f7b8c8" stroke-width="8"/>
-    <path d="M190 54 l10 -18 l10 18 l18 10 l-18 10 l-10 18 l-10 -18 l-18 -10z" fill="#ffe6a3" stroke="#f5d584" stroke-width="3"/>
-    <path d="M975 350 l10 -18 l10 18 l18 10 l-18 10 l-10 18 l-10 -18 l-18 -10z" fill="#ffd3bb" stroke="#f4b894" stroke-width="3"/>
-    <path d="M52 210 C75 195 95 202 102 220 C110 238 97 259 76 259 C55 259 42 240 46 224" stroke="#b9e2d5" stroke-width="6"/>
-    <path d="M1144 205 C1125 188 1104 195 1097 214 C1090 234 1104 253 1125 253 C1146 253 1158 236 1155 219" stroke="#ffd19f" stroke-width="6"/>
+  <!-- restrained doodle language from the presentation -->
+  <g opacity="0.72" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 104 C76 68 124 70 140 103 C158 83 197 91 205 122 C213 153 186 173 151 170 H91 C57 170 37 146 43 122 C44 116 46 110 48 104 Z" fill="#D7F1FF" stroke="#BAE5F5" stroke-width="5"/>
+    <path d="M1430 74 C1456 49 1498 55 1509 87 C1530 68 1562 80 1564 109 C1565 138 1540 155 1510 154 H1452 C1426 153 1408 133 1412 111 C1414 96 1420 84 1430 74 Z" fill="#E4F6E5" stroke="#CBE9CB" stroke-width="5"/>
+    <path d="M88 472 q31 -38 62 0 q-31 42 -62 0" fill="none" stroke="#D9C6EE" stroke-width="10"/>
+    <path d="M1447 475 q29 -36 58 0 q-29 40 -58 0" fill="none" stroke="#F7BBCB" stroke-width="10"/>
+    <path d="M250 73 l11 -23 l11 23 l24 11 l-24 11 l-11 24 l-11 -24 l-23 -11z" fill="#FFE7A6" stroke="#F4D37D" stroke-width="3"/>
+    <path d="M1368 520 l11 -23 l11 23 l24 11 l-24 11 l-11 24 l-11 -24 l-23 -11z" fill="#FFD8C2" stroke="#F5B99A" stroke-width="3"/>
+    <path d="M131 520 C149 494 180 493 196 513 C208 528 205 553 186 567 C165 581 137 570 126 549" fill="none" stroke="#B9E4D6" stroke-width="7"/>
+    <path d="M1517 265 C1499 241 1471 242 1456 263 C1444 280 1448 303 1466 316 C1487 331 1514 319 1524 299" fill="none" stroke="#FFD2A0" stroke-width="7"/>
   </g>
 
-  <!-- subtle moving dots -->
-  <g opacity="0.8">
-    <circle r="5" fill="#79c7eb"><animateMotion dur="8s" repeatCount="indefinite" path="M60 388 C260 332 325 402 500 365 C695 325 850 390 1130 340"/></circle>
-    <circle r="4" fill="#ffad65"><animateMotion dur="10s" repeatCount="indefinite" path="M1130 110 C920 150 860 78 705 120 C525 170 352 84 70 145"/></circle>
+  <!-- slow ambient movement -->
+  <g opacity="0.88" filter="url(#glow)">
+    <circle r="5" fill="#7CCDF0">
+      <animateMotion dur="10s" repeatCount="indefinite" path="M80 572 C340 515 492 586 720 548 C970 506 1190 573 1518 510"/>
+    </circle>
+    <circle r="4" fill="#F6AE68">
+      <animateMotion dur="12s" repeatCount="indefinite" path="M1514 143 C1275 185 1114 112 901 156 C651 207 420 121 95 171"/>
+    </circle>
+    <circle r="4" fill="#A88EE6">
+      <animateMotion dur="14s" repeatCount="indefinite" path="M131 330 C344 270 519 344 760 300 C1023 252 1229 336 1475 286"/>
+    </circle>
   </g>
 
-  <!-- main card -->
-  <rect x="154" y="92" width="892" height="264" rx="34" fill="#f6ede3" filter="url(#shadow)"/>
-  <rect x="190" y="126" width="54" height="54" rx="10" fill="#111111"/>
-  <text x="217" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#ffffff">oz.</text>
+  <!-- main glass-like panel -->
+  <rect x="218" y="98" width="1164" height="446" rx="42" fill="url(#card)" filter="url(#shadow)"/>
+  <rect x="218.75" y="98.75" width="1162.5" height="444.5" rx="41.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="1.5"/>
 
-  <text x="270" y="154" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#6b7280">HEALTHCARE DATA MINI PROJECT</text>
-  <text x="190" y="220" font-family="Arial, sans-serif" font-size="46" font-weight="800" fill="#111827">SMOKING × HEALTH DATA</text>
-  <text x="190" y="263" font-family="Arial, sans-serif" font-size="23" font-weight="600" fill="#374151">흡연 여부 데이터 분석을 통한 건강 인사이트 도출</text>
+  <!-- identity -->
+  <rect x="272" y="148" width="62" height="62" rx="13" fill="#111111" filter="url(#softShadow)"/>
+  <text x="303" y="190" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800">oz.</text>
+  <text x="360" y="172" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="2.2">AI HEALTHCARE MINI PROJECT · TEAM 11</text>
+  <text x="360" y="202" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">EDA · VISUALIZATION · HEALTH INSIGHTS</text>
 
-  <g font-family="Arial, sans-serif" font-size="16" font-weight="700">
-    <rect x="190" y="292" width="152" height="38" rx="19" fill="#c9ebfb"/><text x="266" y="317" text-anchor="middle" fill="#24556d">7,000 records</text>
-    <rect x="354" y="292" width="132" height="38" rx="19" fill="#ffe0bd"/><text x="420" y="317" text-anchor="middle" fill="#7a4a19">18 variables</text>
-    <rect x="498" y="292" width="169" height="38" rx="19" fill="#dff3df"/><text x="582" y="317" text-anchor="middle" fill="#315d3a">EDA · visualization</text>
-    <rect x="679" y="292" width="177" height="38" rx="19" fill="#e7dcf6"/><text x="767" y="317" text-anchor="middle" fill="#5b4676">correlation analysis</text>
+  <!-- title -->
+  <text x="272" y="287" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="0.3">SMOKING × HEALTH DATA</text>
+  <text x="272" y="334" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">흡연 여부 데이터 분석을 통한 건강 인사이트 도출</text>
+  <text x="272" y="373" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="19">7,000건의 건강검진 데이터에서 BMI · 중성지방 · 충치 · 혈압과 흡연의 관계를 탐색했습니다.</text>
+
+  <!-- chips -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">
+    <rect x="272" y="414" width="174" height="46" rx="23" fill="url(#blueChip)"/>
+    <text x="359" y="443" text-anchor="middle" fill="#24556D">7,000 records</text>
+
+    <rect x="458" y="414" width="154" height="46" rx="23" fill="url(#orangeChip)"/>
+    <text x="535" y="443" text-anchor="middle" fill="#7A4A19">18 variables</text>
+
+    <rect x="624" y="414" width="203" height="46" rx="23" fill="url(#greenChip)"/>
+    <text x="725.5" y="443" text-anchor="middle" fill="#315D3A">EDA · visualization</text>
+
+    <rect x="839" y="414" width="215" height="46" rx="23" fill="url(#purpleChip)"/>
+    <text x="946.5" y="443" text-anchor="middle" fill="#5B4676">correlation analysis</text>
   </g>
 
-  <!-- health symbols -->
-  <g transform="translate(895 173)">
-    <path d="M0 0 C-25 -22 -62 -3 -62 28 C-62 69 0 100 0 100 C0 100 62 69 62 28 C62 -3 25 -22 0 0 Z" fill="#ff8f9c" opacity="0.88"/>
-    <path d="M-25 48 h18 l8 -20 l13 41 l10 -21 h25" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- animated health panel -->
+  <g transform="translate(1121 186)">
+    <circle cx="0" cy="0" r="104" fill="#FFFFFF" opacity="0.72"/>
+    <circle cx="0" cy="0" r="82" fill="#FFF1F3" opacity="0.92">
+      <animate attributeName="r" values="82;86;82" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M0 -38 C-24 -61 -62 -45 -62 -12 C-62 30 0 67 0 67 C0 67 62 30 62 -12 C62 -45 24 -61 0 -38 Z" fill="#F58C9B"/>
+    <path d="M-33 13 H-13 L-4 -14 L9 31 L22 7 H40" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle r="4" fill="#FFFFFF" filter="url(#glow)">
+      <animateMotion dur="3.4s" repeatCount="indefinite" path="M-33 13 H-13 L-4 -14 L9 31 L22 7 H40"/>
+    </circle>
   </g>
 
-  <path d="M75 408 H1125" stroke="#111827" stroke-width="3"/>
-  <path d="M1035 408 h90 l-20 -16 h-70z" fill="#111827"/>
+  <!-- tiny data marks -->
+  <g transform="translate(1086 350)" opacity="0.9">
+    <rect x="0" y="62" width="24" height="38" rx="8" fill="#A8DCF5"/>
+    <rect x="38" y="44" width="24" height="56" rx="8" fill="#F3BF7C"/>
+    <rect x="76" y="23" width="24" height="77" rx="8" fill="#A7DEBC"/>
+    <rect x="114" y="0" width="24" height="100" rx="8" fill="#BDAAEF"/>
+    <path d="M-6 111 H153" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="4" fill="#F58C9B">
+      <animate attributeName="cx" values="12;50;88;126;12" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="52;38;18;-6;52" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <path d="M84 597 H1516" stroke="#111827" stroke-width="3"/>
+  <path d="M1402 597 H1516 L1491 578 H1426 Z" fill="#111827"/>
 </svg>
