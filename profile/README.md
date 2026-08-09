@@ -1,5 +1,9 @@
+<a id="top"></a>
+
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="OZ Healthcare Data Lab" />
+  <a href="#top" aria-label="Stay on this page">
+    <img src="./assets/hero.svg" width="100%" alt="OZ Healthcare Data Lab" />
+  </a>
 </p>
 
 <h1 align="center">OZ Healthcare Data Lab</h1>
@@ -18,6 +22,8 @@
 
 ---
 
+<a id="project"></a>
+
 ## Project
 
 최근 건강검진 데이터를 바탕으로 흡연자와 비흡연자의 건강 지표를 비교한 데이터 분석 프로젝트입니다.
@@ -27,13 +33,19 @@
 흡연 여부를 단순 예측 대상으로만 보지 않고, **흡연자와 비흡연자 사이에서 어떤 건강 지표의 차이가 관찰되는지**를 시각화하고 정리하는 데 초점을 맞췄습니다.
 
 <p align="center">
-  <img src="./assets/workflow.svg" width="100%" alt="Analysis workflow" />
+  <a href="#project" aria-label="Stay on Project section">
+    <img src="./assets/workflow.svg" width="100%" alt="Analysis workflow" />
+  </a>
 </p>
+
+<a id="findings"></a>
 
 ## Findings
 
 <p align="center">
-  <img src="./assets/insights.svg" width="100%" alt="Key findings" />
+  <a href="#findings" aria-label="Stay on Findings section">
+    <img src="./assets/insights.svg" width="100%" alt="Key findings" />
+  </a>
 </p>
 
 최종 분석 Notebook에서 확인한 대표 결과입니다.
