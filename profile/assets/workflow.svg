@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Analysis workflow</title>
+  <desc id="desc">Workflow from health screening data through preprocessing, group comparison, correlation analysis, and insights.</desc>
+  <rect width="1200" height="260" rx="28" fill="#f8f5f0"/>
+  <text x="60" y="48" font-family="Arial, sans-serif" font-size="21" font-weight="800" fill="#111827">ANALYSIS FLOW</text>
+  <path d="M140 154 H1060" stroke="#d1d5db" stroke-width="5" stroke-linecap="round"/>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(150 150)">
+      <circle r="54" fill="#cceeff" stroke="#a9dff4" stroke-width="2"/>
+      <text y="-5" font-size="18" font-weight="800" fill="#193f52">DATA</text>
+      <text y="20" font-size="14" fill="#355c6d">7,000 × 18</text>
+    </g>
+    <g transform="translate(375 150)">
+      <circle r="54" fill="#ffe2bd" stroke="#f6c889" stroke-width="2"/>
+      <text y="-5" font-size="18" font-weight="800" fill="#6f4719">CLEAN</text>
+      <text y="20" font-size="14" fill="#7e5a35">missing + bins</text>
+    </g>
+    <g transform="translate(600 150)">
+      <circle r="54" fill="#dff3df" stroke="#c5e4c3" stroke-width="2"/>
+      <text y="-5" font-size="18" font-weight="800" fill="#315d3a">COMPARE</text>
+      <text y="20" font-size="14" fill="#486e4f">smoker / non</text>
+    </g>
+    <g transform="translate(825 150)">
+      <circle r="54" fill="#e7dcf6" stroke="#d4c2eb" stroke-width="2"/>
+      <text y="-5" font-size="18" font-weight="800" fill="#594574">CORRELATE</text>
+      <text y="20" font-size="14" fill="#6e5a86">health signals</text>
+    </g>
+    <g transform="translate(1050 150)">
+      <circle r="54" fill="#ffd8dd" stroke="#f4bcc4" stroke-width="2"/>
+      <text y="-5" font-size="18" font-weight="800" fill="#7e3d48">INSIGHT</text>
+      <text y="20" font-size="14" fill="#87545d">limits included</text>
+    </g>
+  </g>
+
+  <g fill="#111827">
+    <path d="M212 150 l16 -9 v18z"/><path d="M437 150 l16 -9 v18z"/><path d="M662 150 l16 -9 v18z"/><path d="M887 150 l16 -9 v18z"/>
+  </g>
+
+  <circle r="7" fill="#111827">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M150 150 H1050"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
