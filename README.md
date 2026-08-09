@@ -1,4 +1,5 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+# oz-dongari Organization Profile
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+GitHub Organization 소개 화면을 위한 저장소입니다.
+
+랜딩페이지 본문은 [`profile/README.md`](profile/README.md), 시각 자료는 `profile/assets/`에서 관리합니다.
