@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="OZ Healthcare Data Lab" />
+  <a href="#_" aria-label="OZ Healthcare Data Lab visual"><img src="./assets/hero.svg" width="100%" alt="OZ Healthcare Data Lab" /></a>
 </p>
 
 <p align="center">
@@ -16,13 +16,13 @@
 예측 모델의 성능을 겨루기보다, **이 데이터에서 어떤 차이가 실제로 관찰되는지 이해하고 설명하는 것**에 초점을 맞췄습니다.
 
 <p align="center">
-  <img src="./assets/workflow.svg" width="100%" alt="Analysis workflow" />
+  <a href="#_" aria-label="Analysis workflow visual"><img src="./assets/workflow.svg" width="100%" alt="Analysis workflow" /></a>
 </p>
 
 ## 핵심 결과
 
 <p align="center">
-  <img src="./assets/insights.svg" width="100%" alt="Key findings" />
+  <a href="#_" aria-label="Key findings visual"><img src="./assets/insights.svg" width="100%" alt="Key findings" /></a>
 </p>
 
 | 항목 | 비흡연 | 흡연 |
