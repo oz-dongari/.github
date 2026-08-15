@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
   <title id="title">Key smoking and health findings</title>
-  <desc id="desc">Precisely aligned visual summary of triglycerides, cavity prevalence, and smoking share by BMI group.</desc>
+  <desc id="desc">Triglycerides, cavity prevalence, and smoking share by BMI group.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFDF9"/><stop offset="1" stop-color="#FAF8FF"/></linearGradient>
     <linearGradient id="blueCard" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ECF9FF"/><stop offset="1" stop-color="#DDF3FD"/></linearGradient>
@@ -11,7 +11,7 @@
 
   <rect width="1600" height="720" rx="32" fill="url(#bg)"/>
   <text x="80" y="82" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#111827">KEY FINDINGS</text>
-  <text x="80" y="124" dominant-baseline="middle" font-family="'NanumSquare', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" fill="#6B7280">최종 Notebook의 실제 출력값을 기준으로 정리한 대표 관찰 결과</text>
+  <text x="80" y="124" dominant-baseline="middle" font-family="'NanumSquare', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="21" fill="#6B7280">중성지방 · 충치 · BMI 구간별 흡연자 비율</text>
 
   <g filter="url(#shadow)">
     <g transform="translate(80 180)" font-family="'NanumSquare', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
@@ -66,5 +66,5 @@
     </g>
   </g>
 
-  <text x="80" y="684" dominant-baseline="middle" font-family="'NanumSquare', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="17" fill="#6B7280">※ BMI 3단계 비만 구간은 표본 41명으로 작아 단순 추세 해석에 주의가 필요합니다.</text>
+  <text x="80" y="684" dominant-baseline="middle" font-family="'NanumSquare', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif" font-size="17" fill="#6B7280">※ BMI 3단계 비만: n=41 · 소표본 · 단순 추세 해석 제외</text>
 </svg>
