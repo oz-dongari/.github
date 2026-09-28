@@ -65,6 +65,9 @@ BMI · 중성지방 · 충치 · 데이터셋 혈압 변수 중심 전처리 · 
 **김진형 · 남한솔 · 안상균 · 이희진**  
 OZ Coding School · 11조 헬스 케어 동아리
 
+**Contribution boundary:** 공개 Git history는 저장소 업로드·문서 정리 이력을 주로 반영하며, commit 수를 프로젝트 분석 기여도 순위로 해석하지 않습니다.  
+세부 기준: [Project Team / Contribution Record](https://github.com/oz-dongari/smoking_health_data/blob/main/CONTRIBUTORS.md)
+
 <p align="center">
   <sub>Smoking & Health Data Analysis · AI Healthcare Mini Project</sub>
 </p>
